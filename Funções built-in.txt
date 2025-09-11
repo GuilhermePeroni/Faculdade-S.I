@@ -1,0 +1,43 @@
+Funções para Conversão de Tipos
+Essas funções convertem um objeto de um tipo para outro.
+
+int(): Converte para número inteiro. Ex: int('10')
+
+float(): Converte para número de ponto flutuante. Ex: float('3.14')
+
+str(): Converte para string. Ex: str(123)
+
+list(): Converte para lista. Ex: list('abc')
+
+tuple(): Converte para tupla. Ex: tuple([1, 2, 3])
+
+set(): Converte para conjunto (remove duplicatas). Ex: set([1, 1, 2])
+
+Funções para Trabalhar com Coleções
+Essas funções operam em listas, tuplas, conjuntos e outras coleções.
+
+len(): Retorna o número de itens de uma coleção. Ex: len([1, 2, 3])
+
+sum(): Soma todos os itens de uma coleção de números. Ex: sum([1, 2, 3])
+
+min(): Retorna o menor item. Ex: min([5, 2, 8])
+
+max(): Retorna o maior item. Ex: max([5, 2, 8])
+
+sorted(): Retorna uma nova lista com os itens ordenados. Ex: sorted([3, 1, 2])
+
+enumerate(): Retorna um objeto que produz pares de (índice, valor). Útil em loops for. Ex: for i, item in enumerate(lista):
+
+Funções para Entrada e Saída (I/O)
+print(): Imprime objetos no console.
+
+input(): Lê dados do teclado. Ex: nome = input('Digite seu nome: ')
+
+Funções de Lógica e Avaliação
+type(): Retorna o tipo de um objeto. Ex: type(10)
+
+bool(): Retorna True ou False para a avaliação de um objeto. Ex: bool('') (retorna False)
+
+range(): Gera uma sequência de números. Comumente usada em loops for. Ex: for i in range(5):
+
+abs(): Retorna o valor absoluto de um número. Ex: abs(-10)

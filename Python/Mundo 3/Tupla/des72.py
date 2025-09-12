@@ -3,10 +3,10 @@
 
 extenso = ('zero', 'um', 'dois', 'três','quatro','cinco')
 
-While True:
+while True:
   numero= int(input('Me de um número de 0 a 5 que eu lhe devolvo por extenso: '))
   if 0 <= numero <= 20:
     break
-  print('Tente novamente.' end= '')
+  print('Tente novamente.', end= '')
 
 print(f'O número foi {numero} e ele é escrito assim {extenso[numero]}')

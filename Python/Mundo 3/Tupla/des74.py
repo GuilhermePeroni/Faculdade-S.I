@@ -15,8 +15,9 @@ print(semrep)
 
 print('\n')
 print(f'Lista sem números repetidos:\n')
-print(f'O menor valor foi: {min(numeros)}')
+print(f'O maior valor foi: {max(numeros)}')
 
 print('\n')
 print(f'Lista sem números repetidos:\n')
-print(f'O maior valor foi: {max(numeros)}')
+print(f'O menor valor foi: {min(numeros)}')
+

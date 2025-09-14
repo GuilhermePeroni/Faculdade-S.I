@@ -4,6 +4,9 @@
 palavras = ('casa', 'carro','manha', 'comida','sapato', 'escritorio','uva')
 
 for vogal in palavras:
-    print(f'A palavra {vogal} tem essas vogais {vogal.count('a'), vogal.count('e'), vogal.count('i'), vogal.count('o'), vogal.count('u')}')
-print(f'Fim das palavras')
+    print(f'\nA palavra {vogal.upper()} tem essas vogais: ', end='')
+    for letra in vogal:
+        if letra.lower() in 'aeiou':
+            print(letra, end= ' ')
+print(f'\nFim das palavras')
 
